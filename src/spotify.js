@@ -16,12 +16,13 @@ const scopes = [
 ];
 
 export const getTokenFromUrl = () => {
-    return window.location.hash.substring(1).split("&")
+    return window.location.hash
+    .substring(1)
+    .split("&")
     .reduce((initial, item) => {
         // access_token=BQDChcagxJpsqjXTQBZSkhUnmjm&name=Qwerty
-        let parts = item.split('=');
+        let parts = item.split("=");
         initial[parts[0]] = decodeURIComponent(parts[1])
-
         return initial;
     }, {});
 }
