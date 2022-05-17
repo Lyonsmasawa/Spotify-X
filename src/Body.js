@@ -25,6 +25,10 @@ function Body({ spotify }) {
                 <Favorite />
                 <MoreHoriz />
           </div>
+
+          {discover_weekly?.tracks.items.map(item => (
+            
+          ) }
       </div>
     </div>
   ) 
