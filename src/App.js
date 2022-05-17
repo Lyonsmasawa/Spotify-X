@@ -36,6 +36,8 @@ function App() {
   }, []);
 
   console.log("try", user);
+  console.log("try too", token);
+
 
   return (
     <div className="App">
