@@ -29,3 +29,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.footer__albumLogo{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+}
