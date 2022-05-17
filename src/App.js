@@ -21,8 +21,8 @@ function App() {
           type: 'SET_TOKEN',
           token: _token,
         })
-        spotify.setAccessToken(_token);
 
+        spotify.setAccessToken(_token);
         spotify.getMe().then(user => {
           // console.log(user);
           dispatch({
@@ -31,17 +31,17 @@ function App() {
           })
         });
       }
-      console.log("I have it",token)
+      // console.log("I have it",token)
   }, []);
 
-  console.log("try", user);
-  console.log("try too", token);
+  // console.log("try", user);
+  // console.log("try too", token);
 
 
   return (
     <div className="App">
       {
-        token ? <Player/> : <Login/>
+        token ? <Player spotify={spotify}/> : <Login/>
       }
     </div>
   );
