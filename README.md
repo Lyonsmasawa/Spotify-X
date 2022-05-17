@@ -9,7 +9,7 @@
 <img src="login.png">
 
 ## Description
-This is a front-end clone of Spotify(data from Spotify API).
+This is a simple clone of the music streaming service known as Spotify(data from Spotify API).
 
 ## Language used
 This page is made with REACT js.
