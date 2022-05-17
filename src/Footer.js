@@ -12,7 +12,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className="footer__left">
-            <img className='footer__albumLogo' src="https://i.scdn.co/image/ab6775700000ee85b254071f06759aa4a4f6398b" alt="" />
+            <img className='footer__albumLogo' 
+                src="https://i.scdn.co/image/ab6775700000ee85b254071f06759aa4a4f6398b" 
+                alt="" 
+            />
             <div className="footer__songInfo">
                 <h4>Yeah</h4>
                 <p>Usher</p>
