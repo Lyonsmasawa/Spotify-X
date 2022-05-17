@@ -13,7 +13,11 @@ function Footer() {
             <p>Albums</p>
         </div>
         <div className="footer__center">
-            <p>Player controls</p>
+            <ShuffleIcon className='footer__green'/>
+            <SkipPreviousIcon className='footer__icon'/>
+            <PlayCircleOutlineIcon className='footer__icon' fontSize='large'/>
+            <SkipNextIcon className='footer__icon'/>
+            <RepeatIcon className='footer__green'/>
         </div>
         <div className="footer__right">
             <p>Volume controls</p>
