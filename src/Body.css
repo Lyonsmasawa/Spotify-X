@@ -1,11 +1,15 @@
 .body{
-    height: 100vh;
+    min-height: 100vh;
     flex: 0.8;
     color: white;
+    overflow-y: overlay;
+    scrollbar-width: none;
     padding: 30px;
     background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
 }
-
+.body::-webkit-scrollbar {
+    display: none;
+}
 .body__info{
     display: flex;
     align-items: flex-end;
