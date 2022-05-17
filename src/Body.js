@@ -6,6 +6,6 @@ function Body() {
         <h1>I am the body</h1>
     </div>
   ) 
-}
+} 
 
 export default Body
