@@ -18,7 +18,7 @@ function Sidebar() {
         <hr />
 
         <SidebarOption title='HipHop'></SidebarOption>
-        <SidebarOption title='Rock'></SidebarOption>
+        <SidebarOption title='Rock'></SidebarOption> 
         <SidebarOption title='RnB'></SidebarOption>
 
     </div>
