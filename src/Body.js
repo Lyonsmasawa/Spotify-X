@@ -7,7 +7,7 @@ function Body({ spotify }) {
     <div className="body">
       <Header spotify={spotify}/>
       <div className="body__info">
-          <img src="https://i.scdn.co/image/ab6775700000ee85b254071f06759aa4a4f6398b" alt="" srcset="" />
+          <img src="https://www.spotifyvault.com/m/7f6b3fc83283d616/thul-Discover-Weekly-Generic-Cover.png" alt="" srcset="" />
           <div className="body__infoText">
             <strong>PLAYLIST</strong>
             <h2>Discover Weekly</h2>
