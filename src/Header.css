@@ -12,6 +12,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
+    min-width: 80px;
 }
 
 .header__left > input {

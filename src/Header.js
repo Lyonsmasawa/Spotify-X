@@ -9,7 +9,7 @@ function Header() {
         <div className="header__left">
             <Search />
             <input type="text"
-            placeholder='Search for Artists, Songs,'
+            placeholder='Search for Artists, Songs or podcasts'
             />
         </div>
         <div className="header__right">
