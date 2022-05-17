@@ -1,18 +1,12 @@
 # Spotify-Clone.
 
-## A peek of the page
+## User Dashboard
 
 <img src="rec.png">
 
-## Table of Content
+## Login page
 
-+ [Description](#Description)
-+ [Languages](##Languagesused)
-+ [Usage](##Tousethetemplate)
-+ [Contributing](##Contributing)
-+ [Reference](#reference)
-+ [Licence](##Licence)
-+ [Author](##Author)
+<img src="login.png">
 
 ## Description
 This is a front-end clone of Spotify(data from Spotify API).
