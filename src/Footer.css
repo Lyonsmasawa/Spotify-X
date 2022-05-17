@@ -15,6 +15,11 @@
 .footer__center{
     flex: 0.4;
     padding:0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
 }
 
 .footer__right{
