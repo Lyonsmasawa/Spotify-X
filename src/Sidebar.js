@@ -4,9 +4,9 @@ import './Sidebar.css'
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <h1>I am a sidebar</h1>
+        <img src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt="" />
     </div>
   )
 }
 
-export default Sidebar
+export default Sidebar;
