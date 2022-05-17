@@ -4,4 +4,17 @@
     margin-bottom: 30px;
 }
 
-.header
+.header__left{
+    flex: 0.5;
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__left > input {
+    border: none;
+    width: 100%;
+}
