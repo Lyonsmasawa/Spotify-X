@@ -3,6 +3,7 @@ import React from 'react'
 import './Body.css'
 import { useDataLayerValue } from './DataLayer'
 import Header from './Header'
+import SongRow from './SongRow';
 
 function Body({ spotify }) {
     const [{discover_weekly}, dispatch] = useDataLayerValue();
@@ -26,9 +27,9 @@ function Body({ spotify }) {
                 <MoreHoriz />
           </div>
 
-          {discover_weekly?.tracks.items.map(item => (
-            
-          ) }
+          {discover_weekly?.tracks.items.map((item) => (
+            <SongRow track={item.track}/>
+          ))}
       </div>
     </div>
   ) 
