@@ -4,7 +4,7 @@
 export const authEndPoint = 
 "https://accounts.spotify.com/authorize/";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotifyx-dev.firebaseapp.com/";
 const clientId = "d6daa6d0cc0240e6b8b7c6638a56522a";
 
 const scopes = [
@@ -20,7 +20,6 @@ export const getTokenFromUrl = () => {
     .substring(1)
     .split("&")
     .reduce((initial, item) => {
-        // access_token=BQDChcagxJpsqjXTQBZSkhUnmjm&name=Qwerty
         let parts = item.split("=");
         initial[parts[0]] = decodeURIComponent(parts[1])
         return initial;
