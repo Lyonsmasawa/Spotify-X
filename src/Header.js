@@ -13,7 +13,7 @@ function Header() {
             />
         </div>
         <div className="header__right">
-            <Avatar />
+            <Avatar src='' alt="Lyons"/>
             <h4>Lyons Albert</h4>
         </div>
     </div>
