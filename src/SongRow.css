@@ -5,3 +5,17 @@
     align-items: center;
     color: white;
 }
+
+.SongRow:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.SongRow__info {
+    margin-left: 20px;
+}
+
+.SongRow__info > h1 {
+    font-size: 16px;
+}
