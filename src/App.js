@@ -19,7 +19,7 @@ function App() {
       if (_token) {
         dispatch({
           type: 'SET_TOKEN',
-          toke: _token,
+          token: _token,
         })
         spotify.setAccessToken(_token);
 
