@@ -1,3 +1,4 @@
+import { MoreHoriz, Favorite, PlayCircleFilled } from '@mui/icons-material';
 import React from 'react'
 import './Body.css'
 import { useDataLayerValue } from './DataLayer'
@@ -15,6 +16,14 @@ function Body({ spotify }) {
             <strong>PLAYLIST</strong>
             <h2>Discover Weekly</h2>
             <p>{discover_weekly?.description}</p>
+          </div>
+      </div>
+
+      <div className="body__songs">
+          <div className="body__icons">
+                <PlayCircleFilled />
+                <Favorite />
+                <MoreHoriz />
           </div>
       </div>
     </div>
