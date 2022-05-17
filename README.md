@@ -1,7 +1,7 @@
 # Spotify-Clone.
 ## Description
 This is a simple clone of the music streaming service known as Spotify(data from Spotify API).
-Made with React JS.
+Made with React JS. 
 
 ## User Dashboard
 
