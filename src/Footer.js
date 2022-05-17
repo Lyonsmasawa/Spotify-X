@@ -3,6 +3,8 @@ import './Footer.css'
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import ShuffleIcon from '@material-ui/icons/Shuffle';
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
+import RepeatIcon from '@material-ui/icons/Repeat';
 
 function Footer() {
   return (
