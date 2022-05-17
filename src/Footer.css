@@ -8,3 +8,15 @@
     display: flex;
     justify-content: space-between;
 }
+.footer__left{
+    flex: 0.3;
+}
+
+.footer__center{
+    flex: 0.4;
+    padding:0 100px;
+}
+
+.footer__right{
+    flex: 0.3;
+}
