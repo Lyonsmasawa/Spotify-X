@@ -44,3 +44,11 @@
 .footer__green{
     color: #1ed15e;
 }
+
+.footer__songInfo > h4{
+    margin-bottom: 5px;
+}
+
+.footer__songInfo > p{
+    font-size: 12px;
+}
