@@ -3,6 +3,7 @@ export const initialState = {
     playlists: [],
     playing: false,
     item: null,
+    token: null,
 }
 
 const reducer = (state, action) => {
@@ -13,6 +14,11 @@ const reducer = (state, action) => {
             return {
                 ...state, //keep whatever was in the state prevent overwriting.
                 user: action.user // update user slice 
+            }
+        case 'SET_TOKEN':
+            return {
+                ...state,
+                token: action.token
             }
         default:
             return state;

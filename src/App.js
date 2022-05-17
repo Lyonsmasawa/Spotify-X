@@ -9,26 +9,33 @@ import { useDataLayerValue } from './DataLayer';
 const spotify = new SpotifyWebApi();
 // npm i spotify-web-api-js
 function App() {
-  const [token, setToken] = useState(null);
-  const [{}, dispatch] = useDataLayerValue();
+  const [{ user, token }, dispatch] = useDataLayerValue(); //dispatch use it to shoot at the data-layer, i.e. change stuff
 
   useEffect(() => {
       const hash = getTokenFromUrl();
       window.location.hash="";
       
-      const _token = hash.access_token
+      const _token = hash.access_token;
 
       if (_token) {
-        setToken(_token)
-
+        dispatch({
+          type: 'SET_TOKEN',
+          toke: _token
+        })
         spotify.setAccessToken(_token);
 
         spotify.getMe().then(user => {
-          console.log(user)
-        })
+          // console.log(user);
+          dispatch({
+            type: 'SET_USER',
+            user: user
+          })
+        });
       }
       console.log("I have it",token)
   }, []);
+
+  console.log("try", user);
 
   return (
     <div className="App">
