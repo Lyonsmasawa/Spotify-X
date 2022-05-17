@@ -46,7 +46,7 @@ function App() {
         })
       }
       // console.log("I have it",token)
-  }, []);
+  });
 
   // console.log("try", user);
   // console.log("try too", token);
